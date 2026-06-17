@@ -1,4 +1,4 @@
-$(foreach key,$(file < manifest),$(eval $(key)))
+include manifest
 
 .PHONY: help
 
