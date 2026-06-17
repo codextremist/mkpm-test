@@ -1,4 +1,5 @@
+manifest := $(file < manifest)
 .PHONY: help
 
-help: 
-	@echo "Help was called"
+help:
+	@echo $(files)
